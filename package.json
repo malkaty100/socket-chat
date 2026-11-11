@@ -4,10 +4,12 @@
   "private": true,
   "description": "Exercise 11 - real-time chat server with Express and Socket.io (the client is ready) - starter with tests",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
     "test": "node --test --test-reporter=./test/reporter.mjs test/chat.test.cjs"
+    
   },
   "engines": {
     "node": ">=20"
